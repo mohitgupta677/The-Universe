@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+      height:100%;
+      width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-image:url("https://plus.unsplash.com/premium_photo-1673263586782-8fa0713158e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-size: cover;
+    background-position: center;
+}
+#main #one{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(33, 33, 33, 0.703);
+    
+     
+}
+#one #two{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height:400px;
+    width:800px;
+    color:aliceblue
+     
+}
+#two #cir{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    background-image:url("https://m.media-amazon.com/images/I/81PGRNK9HfL.jpg"); 
+    background-size: cover;
+    background-position: center;
+    margin-left: 300px;
+    border:4px solid rgba(240, 248, 255, 0.664);
+    
+}
+#cir #three{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width: 200px;
+    height: 55px;
+    background-color:rgb(62, 99, 131);
+    border-radius: 100px;
+    text-align: center;  
+    margin-top: 75px;
+    margin-left:120px;
+    border:2px solid aliceblue;
+}
+#two h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-top:1px;
+     color:rgba(240, 248, 255, 0.697);
+}
+#two button{
+    display:block;
+    background-color:rgba(113, 164, 185, 0.64);
+    border: 2px solid rgb(39, 139, 247);
+    border-radius: 20px;
+    color:rgba(255, 200, 255, 0.988);
+    margin:8px auto 0;
+    height: 50px;
+    width: 200px;
+    font-size:25px;
+    margin-top:30px;
+}
+#two p{
+    text-align:center;
+    font-size:40px;
+    margin-top:30px;
+    color:rgba(217, 202, 202, 0.793);
+}
+#cir #four{
+    position: absolute;
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.2);
+
+}
